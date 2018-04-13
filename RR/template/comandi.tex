@@ -1,0 +1,115 @@
+%Generali
+\newcommand{\ProjectName}{Despeect}
+\newcommand{\GroupName}{TheBlackCat}
+% \newcommand{\gruppoLink}{\href{URL}{NOME}} TODO
+\newcommand{\Email}{\href{mailto:theblackcat.swe@gmail.com}{theblackcat.swe@gmail.com}}
+
+%comando creazione quadrato
+\newcommand\crule[3][black]{\textcolor{#1}{\rule{#2}{#3}}}
+%esempi d'uso
+%\crule[tableLineTwo]{3mm}{3mm} -> crea quadrato con colore tableLineTwo(definito in ../../template/template.tex)
+%\crule[tableLineOne]{3mm}{3mm} -> crea quadrato con colore tableLineTwo(definito in ../../template/template.tex)
+%\crule{1cm}{1cm}  -> crea quadrato nero di 1 cm 
+%\crule[blue]{1cm}{1cm}  -> crea quadrato blu di 1 cm
+%\crule[red!50!white!100]{1cm}{1cm} -> crea quadrato rosa di 1 cm
+
+%fine prova inserimento comando
+
+
+
+%Documenti
+\newcommand{\AR}{Analisi dei Requisiti}
+\newcommand{\DdP}{Definizione di Prodotto}
+\newcommand{\LdP}{Lettera di Presentazione}
+\newcommand{\MU}{Manuale Utente}
+\newcommand{\MS}{Manuale Sviluppatore}
+\newcommand{\MM}{Manuale Manutentore}
+\newcommand{\NdP}{Norme di Progetto}
+\newcommand{\PdP}{Piano di Progetto}
+\newcommand{\PdQ}{Piano di Qualifica}
+\newcommand{\SdF}{Studio di Fattibilità}
+\newcommand{\ST}{Specifica Tecnica}
+\newcommand{\VI}{Verbale Interno}
+\newcommand{\VE}{Verbale Esterno}
+\newcommand{\GL}{Glossario}
+
+%Ultima versione dei documenti
+\newcommand{\AdRv}{\textit{Analisi dei Requisiti v1.0.0}}
+\newcommand{\NdPv}{\textit{Norme di Progetto v1.0.0}}
+\newcommand{\PdPv}{\textit{Piano di Progetto v1.0.0}}
+\newcommand{\PdQv}{\textit{Piano di Qualifica v1.0.0}}
+\newcommand{\SdFv}{\textit{Studio di Fattibilità v1.0.0}}
+\newcommand{\DdPv}{\textit{Definizione di Prodotto v1.0.0}}
+\newcommand{\Glv}{\textit{Glossario v1.0.0}}
+% se seguite da spazio è necessario inserire \ dopo
+
+%Nome dei componenti del gruppo
+\newcommand{\lallegro}{Luca Allegro}
+\newcommand{\galbanel}{Giulia Albanello}
+\newcommand{\sscaglio}{Stefano Scaglione}
+\newcommand{\analesso}{Andrea Nalesso}
+\newcommand{\ddisomma}{Davide Di~Somma}
+\newcommand{\rdamiani}{Riccardo Damiani}
+
+%Proponente, committente
+\newcommand{\Proponente}{Mivoq SRL}
+\newcommand{\Referente}{dott. Giulio Paci}
+\newcommand{\Vardanega}{prof. Tullio Vardanega}
+\newcommand{\Cardin}{prof. Riccardo Cardin}
+
+% Revisioni
+\newcommand{\RR}{Revisione dei Requisiti}
+\newcommand{\RP}{Revisione di Progettazione}
+\newcommand{\RQ}{Revisione di Qualifica}
+\newcommand{\RA}{Revisione di Accettazione}
+
+%Ruoli
+\newcommand{\Admin}{Amministratore}
+\newcommand{\Admins}{Amministratori}
+
+\newcommand{\ProjectResp}{Responsabile di Progetto}
+\newcommand{\ProjectResps}{Responsabili di Progetto}
+
+\newcommand{\Resp}{Responsabile}
+\newcommand{\Resps}{Responsabili}
+
+\newcommand{\Verif}{Verificatore}
+\newcommand{\Verifs}{Verificatori}
+
+\newcommand{\Design}{Progettista}
+\newcommand{\Designs}{Progettisti}
+
+\newcommand{\Coder}{Programmatore}
+\newcommand{\Coders}{Programmatori}
+
+\newcommand{\An}{Analista}
+\newcommand{\Ans}{Analisti}
+
+\newcommand{\G}[1]{\textit{#1\textsubscript{G}}} %marca una parola come presente nel glossario; e.g. \G{Telegram}
+\newcommand{\ora}[2]{#1:#2} %uso e.g. \ora{ore}{minuti}
+\newcommand{\data}[3]{#3-#2-#1} %uso e.g. \data{giorno}{mese}{anno}
+\newcommand{\file}[1]{\textsubscript{#1}}
+
+%tabelle
+\newcommand{\thcell}[1]{\normalsize\textbf{#1}} %formatta la cella dello heade delle tabelle (non diario)
+
+% il conteggio delle tabelle parte da zero
+\setcounter{table}{-1}
+
+%aggiunge newline dopo paragraph
+\makeatletter
+\renewcommand\paragraph{%
+   \@startsection{paragraph}{4}{0mm}%
+      {-\baselineskip}%
+      {.5\baselineskip}%
+      {\normalfont\normalsize\bfseries}}
+\makeatother
+
+%aggiunge newline dopo subparagraph
+\makeatletter
+\renewcommand\subparagraph{\@startsection{subparagraph}{5}{0mm}%
+      {-\baselineskip}%
+      {.5\baselineskip}%
+      {\normalfont\normalsize\bfseries}}
+\makeatother
+
